@@ -1,4 +1,4 @@
-let places = [
+let posts = [
   {
     title: "Pasticceria del Centro Storico di Firenze",
     description: "Nel cuore di Firenze, questa pasticceria offre il miglior ciambellone della città, preparato con ingredienti freschi e ricette tradizionali. È il posto ideale per assaporare un dolce tipico italiano in un ambiente accogliente.",
@@ -32,4 +32,4 @@ let places = [
 ];
 
 
-module.exports = places
+module.exports = posts

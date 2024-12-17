@@ -2,7 +2,7 @@
 const express = require('express')
 const app = express()
 const port = 3000
-const places = require('./data/destinations')
+const posts = require('./data/destinations')
 
 app.use(express.static('public'));
 
@@ -11,7 +11,11 @@ app.get('/', (req, res) => {
 })
 
 app.get('/bacheca', (req, res) => {
-  res.json(places)
+  const myPosts = {
+    postlist : posts,
+    numberOfPosts : posts.length
+  }
+  res.json(myPosts)
 
 })
 
