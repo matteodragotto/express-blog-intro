@@ -1,34 +1,35 @@
-let posti = [
+const posti = [
   {
-    titolo: "Colosseo di Roma",
-    contenuto: "Il Colosseo è uno dei monumenti più iconici di Roma, un anfiteatro che una volta ospitava giochi gladiatori. Con una capacità di circa 50.000 spettatori, è uno dei più grandi e meglio conservati dell'antichità.",
-    immagine: "colosseo_roma.jpg",
-    tags: ["Roma", "Storia", "Monumento", "Antico", "Turismo"]
+    titolo: "Pasticceria del Centro Storico di Firenze",
+    contenuto: "Nel cuore di Firenze, questa pasticceria offre il miglior ciambellone della città, preparato con ingredienti freschi e ricette tradizionali. È il posto ideale per assaporare un dolce tipico italiano in un ambiente accogliente.",
+    immagine: "ciambellone.jpeg",
+    tags: ["Firenze", "Pasticceria", "Dolce", "Tradizione", "Colazione"]
   },
   {
-    titolo: "Torre Eiffel",
-    contenuto: "La Torre Eiffel, simbolo di Parigi, è una struttura in ferro alta 330 metri. Costruita nel 1889 per l'Esposizione Universale, offre una vista panoramica spettacolare della città.",
-    immagine: "torre_eiffel_parigi.jpg",
-    tags: ["Parigi", "Francia", "Architettura", "Monumento", "Turismo"]
+    titolo: "Mercato Centrale di Roma",
+    contenuto: "Il Mercato Centrale di Roma è un luogo dove è possibile trovare una vasta selezione di cibi, tra cui i deliziosi cracker alla barbabietola. Perfetti come snack salutare, sono ideali da gustare durante una passeggiata nel mercato.",
+    immagine: "cracker_barbabietola.jpeg",
+    tags: ["Roma", "Mercato", "Snack", "Vegano", "Sano"]
   },
   {
-    titolo: "Grand Canyon",
-    contenuto: "Il Grand Canyon è una gigantesca gola naturale situata in Arizona, USA. È famoso per le sue spettacolari formazioni rocciose e per i panorami mozzafiato che offre.",
-    immagine: "grand_canyon_usa.jpg",
-    tags: ["USA", "Natura", "Escursioni", "Paesaggio", "Turismo"]
+    titolo: "Trattoria Tipica di Napoli",
+    contenuto: "In una delle trattorie più tradizionali di Napoli, il pane fritto dolce è un must. Servito caldo e spolverato con zucchero e cannella, è un dessert semplice ma irresistibile, perfetto per concludere un pasto tipico napoletano.",
+    immagine: "pane_fritto_dolce.jpeg",
+    tags: ["Napoli", "Trattoria", "Fritto", "Dolce", "Tradizione"]
   },
   {
-    titolo: "Machu Picchu",
-    contenuto: "Machu Picchu è una cittadella Inca situata sulle Ande in Perù. Questo antico sito archeologico è noto per le sue terrazze agricole e i templi costruiti con pietre perfettamente scolpite.",
-    immagine: "machu_picchu_peru.jpg",
-    tags: ["Perù", "Archeologia", "Inca", "Montagna", "Turismo"]
+    titolo: "Ristorante Vegetariano di Bologna",
+    contenuto: "Questo ristorante bolognese è famoso per la sua pasta alla barbabietola, un piatto colorato e ricco di sapore. Perfetto per chi cerca un'alternativa sana alla pasta tradizionale, è preparato con ingredienti freschi e biologici.",
+    immagine: "pasta_barbabietola.jpeg",
+    tags: ["Bologna", "Vegetariano", "Pasta", "Vegano", "Sano"]
   },
   {
-    titolo: "Sydney Opera House",
-    contenuto: "La Sydney Opera House è uno dei più riconoscibili edifici del mondo. Con la sua architettura unica a forma di vela, è il centro culturale di Sydney, ospitando concerti, opere e spettacoli teatrali.",
-    immagine: "opera_house_sydney.jpg",
-    tags: ["Australia", "Sydney", "Architettura", "Cultura", "Teatro"]
+    titolo: "Caffè Storico di Milano",
+    contenuto: "Nel centro di Milano, questo caffè storico è famoso per la sua torta paesana, un dolce rustico che combina pane raffermo, noci e uvetta. È il luogo ideale per gustare una fetta di storia della cucina lombarda, accompagnata da un buon caffè.",
+    immagine: "torta_paesana.jpeg",
+    tags: ["Milano", "Caffè", "Dolce", "Tradizione", "Rustico"]
   }
 ];
+
 
 module.exports = posti
